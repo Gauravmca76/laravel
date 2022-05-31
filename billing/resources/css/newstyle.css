@@ -1,0 +1,21 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+*					{ margin: 0; padding: 0; }
+body				{ font: 14px Georgia, serif; }
+
+#hook-just-in-case[style]  { position: fixed !important; top: 0; }
+
+#page-wrap		    { margin: 0 auto; }
+
+table               { border-collapse: collapse; width: 100%; margin-top: 109px; }
+td                  { border: 1px solid #ccc; padding: 10px; }
+
+thead               { width: 100%; position: fixed; height: 109px; top: 90px;
+                      background: url(../images/header.png) no-repeat; }
+
+.slim               { width: auto; }
+.hover              { background-color: #eee; }
